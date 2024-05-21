@@ -6,5 +6,5 @@
 После регистрации вы сразу становитесь супер пользователем и имеете доступ к панеле админа.
 
 <h2>Стек:</h2>
-HTML + CSS + JQuery + Bootstrap + Slick Slider
+HTML + CSS + JQuery + Bootstrap + Slick Slider<br>
 Django + django-filer + django-admin-sortable2
