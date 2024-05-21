@@ -1,0 +1,44 @@
+{% extends 'main/layout.html'%}
+{% block title %}Аккаунт{% endblock %}
+{% block content %}
+<div class="account my-5">
+    <div class="container">
+        <div class="account__signin">
+            <h1 class="text-center mb-5">Вход</h1>
+            {% if messages %}
+            <ul class="messages w-50 m-auto">
+                {% for message in messages %}
+                    <li style='color: red'{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <form method="POST" class="signin__form">
+                {% csrf_token %}
+                {{ auth_form.username }}
+                {{ auth_form.password }}
+                <button type="submit" class="button">Войти</button>
+            </form>
+            <div class="changeForm" id="changeToRegister">Создать аккаунт</div>
+        </div>
+        <div class="account__signup">
+            <h1 class="text-center mb-5">Регистрация</h1>
+            {% if messages %}
+            <ul class="messages w-50 m-auto">
+                {% for message in messages %}
+                    <li style='color: red'{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <form method="POST" class="signin__form" action="{% url 'create_account'%}">
+                {% csrf_token%}
+                {{ reg_form.username }}
+                {{ reg_form.email }}
+                {{ reg_form.password1 }}
+                {{ reg_form.password2 }}
+                <button type="submit" class="button">Создать аккаунт</button>
+            </form>
+            <div class="changeForm" id="changeToAuth">Уже есть аккаунт</div>
+        </div>
+    </div>
+</div>
+{% endblock %}

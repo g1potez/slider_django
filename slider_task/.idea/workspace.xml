@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b4fc6fd-2477-4002-82d3-4390125096f1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/clipboardadmin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/fileadmin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/folderadmin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/forms.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/permissionadmin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/permissions.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/admin/thumbnailoptionadmin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/models/filemodels.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/models/foldermodels.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/models/imagemodels.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/settings.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/templates/admin/filer/folder/directory_table_list.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../myenv/Lib/site-packages/filer/templates/admin/filer/widgets/admin_file.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2gj8xyAY0prjAHekwficayWVINc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/HDD/1337/PROJECTS/Личные/python slider task/myenv",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="slider_task" type="Python.DjangoServer" factoryName="Django server">
+      <module name="slider_task" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="slider_task.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8001" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b4fc6fd-2477-4002-82d3-4390125096f1" name="Changes" comment="" />
+      <created>1716199876375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716199876375</updated>
+      <workItem from="1716199877499" duration="13888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

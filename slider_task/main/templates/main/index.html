@@ -1,0 +1,72 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}Slider{% endblock %}
+{% block content %}
+<section class="main">
+    <div class="container">
+        <div class="main__content">
+            <div class="content__text my-5 text-center">
+                <h1>Космическое агентство</h1>
+                <p>Национальное управление по аэронавтике и исследованию космического пространства — ведомство, относящееся к федеральному правительству США и подчиняющееся непосредственно президенту США.</p>
+            </div>
+            <div class="content__desc">
+                <div class="row">
+                    <div class="col-md-7 col-12">
+                        <div class="desc__items">
+                            <figure class="items__block">
+                                <img src="{% static 'img/shuttle.png'%}" alt="shuttle">
+                                <span>Спейс шаттлы —пилотируемые корабли</span>
+                            </figure>
+                            <figure class="items__block">
+                                <img src="{% static 'img/telescope.png'%}" alt="telescope">
+                                <span>Лучшее телескопическое оборудование</span>
+                            </figure>
+                            <figure class="items__block">
+                                <img src="{% static 'img/moon.png'%}" alt="moon">
+                                <span>Целимся на Луну и Марс</span>
+                            </figure>
+                            <figure class="items__block">
+                                <img src="{% static 'img/medal.png'%}" alt="medal">
+                                <span>Золотая медаль по научным исследованиям</span>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="desc__image">
+                            <img src="{% static 'img/space-bg.png'%}" alt="space-bg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <div class="container">
+        <h1 class="text-center mb-5">Фотографии</h1>
+        <div class="gallery__content">
+            <div class="content__imageZoom">
+                <div class="imageZoom__closeBtn">✖</div>
+                <div class="imageZoom__image">
+                    <img src="" alt="image1">
+                </div>
+            </div>
+            <div class="slider slider-for mb-5">
+                {% for slide in slides %}
+                <div class="slider-block">
+                    <div class="slider-wrapper"><img src="{{slide.image.url}}" alt="{{slide.name}}"></div>
+                </div>
+                {% empty %}
+                <h2 class="text-center">Нету фотографий</h2>
+                {% endfor %}
+            </div>
+            <div class="slider slider-nav">
+                {% for slide in slides %}
+                <div class="slider-block">
+                    <div class="slider-wrapper"><img src="{{slide.image.url}}" alt="{{slide.name}}"></div>
+                </div>
+                {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

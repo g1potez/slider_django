@@ -1,0 +1,229 @@
+* {
+    color: #0A121E;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: #3b3b3b;
+}
+input[type='text'], input[type='password'], input[type='email'] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0A121E;
+    padding: 10px;
+}
+section .container {
+    padding: 50px 0;
+}
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF342B;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.button:hover {
+    border-color: #FF342B;
+    background-color: transparent;
+    color: #FF342B;
+}
+.icon-bar {
+    display: block;
+    background-color: #FF342B;
+    width: 25px;
+    height: 2px;
+    margin: 5px 0;
+}
+/* navbar */
+.navbar-dark.bg-dark {
+    background-color: #0A121E !important;
+}
+.navbar .navbar-toggler {
+    margin-right: 20px;
+    border: none;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.navbar-dark .collapse .navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.usernameInfo {
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.usernameInfo * {
+    color: #fff;
+}
+.usernameInfo .usernameInfo__username:hover, .usernameInfo .usernameInfo__menu li a:hover {
+    color: #FF342B;
+}
+.usernameInfo__menu {
+    position: absolute;
+    background-color: #0A121E;
+    box-shadow: 0 5px 10px #000;
+    display: none;
+    right: 0;
+    width: 200px;
+    border-radius: 50px;
+}
+.usernameInfo__menu.active {
+    display: block;
+}
+.usernameInfo__menu ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+}
+
+/* main */
+.main .main__content {
+    overflow-x: hidden;
+}
+.main .content__desc .desc__items {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main .content__desc .items__block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content__desc .items__block img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.main .content__desc .items__block span {
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+.main .content__desc .desc__image img {
+    width: 100%;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 767px) {
+    .main .content__desc .desc__image {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* gallery */
+.gallery {
+    background-color: #3b3b3b;
+}
+.gallery * {
+    color: #fff;
+}
+.gallery .gallery__content {
+    max-width: 80%;
+    margin: auto;
+}
+.gallery .slider-for .slider-block .slider-wrapper {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+.gallery .content__imageZoom {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+}
+.gallery .content__imageZoom .imageZoom__closeBtn {
+    cursor: pointer;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.gallery .content__imageZoom .imageZoom__image {
+    width: 90%;
+    margin: 0 auto;
+}
+.gallery .content__imageZoom img {
+    width: 100%;
+}
+
+.gallery .slider-for .slider-block img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 10px #000;
+}
+.gallery .slider-nav .slider-block .slider-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.gallery .slider-nav .slick-center img {
+    border: 1px solid #fff;
+}
+.gallery .slider-nav .slider-block img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 1000px) {
+    .gallery .slider-for .slider-block .slider-wrapper {
+        width: 100%;
+    }
+    .gallery .slider-nav .slider-block .slider-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* account */
+.account .account__signup {
+    display: none;
+}
+.account form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 50px auto;
+}
+.account form input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+@media only screen and (max-width: 590px) {
+    .account form {
+        width: 100%;
+    }
+}
+.account .changeForm {
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+.account .changeForm:hover {
+    color: #FF342B;
+}
