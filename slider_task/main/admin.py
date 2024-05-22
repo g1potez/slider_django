@@ -16,6 +16,4 @@ class SlideAdmin(SortableAdminMixin, admin.ModelAdmin):
     image_tag.allow_tags = True
 
 PermissionAdmin.autocomplete_fields = ()
-admin.site.unregister(Folder)
 admin.site.unregister(ThumbnailOption)
-admin.site.register(Folder, FolderAdmin)
