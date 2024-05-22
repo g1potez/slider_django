@@ -18,3 +18,4 @@ class SlideAdmin(SortableAdminMixin, admin.ModelAdmin):
 PermissionAdmin.autocomplete_fields = ()
 admin.site.unregister(Folder)
 admin.site.unregister(ThumbnailOption)
+admin.site.register(Folder, FolderAdmin)
